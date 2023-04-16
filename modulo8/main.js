@@ -1,4 +1,4 @@
-const form = document.getElementById('form-atividade');
+const form = document.getElementById('meu_form');
 const imgAprovado = '<img src="./images/aprovado.png" alt="Emoji celebrando"/>';
 const imgReprovado = '<img src="./images/reprovado.png" alt="Emoji triste"/>';
 const atividades = [];
