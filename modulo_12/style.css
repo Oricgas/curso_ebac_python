@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+h2{
+    padding: 16px 0;
+}
+#tel{
+    margin-bottom: 16px;
+    max-width: 120px;
+}
