@@ -27,7 +27,8 @@ html{
     text-align: center;
     color: #fff
 }
-.nav-pills > .nav-link{
+.nav-pills > .nav-link,
+button.navbar-toggler{
     background-color: #8654cd;
 }
 
@@ -40,10 +41,7 @@ html{
 .carousel-item img{
     margin: auto;    
 }
-.carousel-inner img{  
-    max-height:500px;    
-    margin: auto;
-}
+
 .carousel-control-next, .carousel-control-prev{
     width: 40%;
 }
