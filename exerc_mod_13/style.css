@@ -18,6 +18,10 @@ html{
 .carousel-inner img{
     object-fit: contain;
 }
+.nav{
+    padding-bottom: 16px;
+}
+
 .navbar{
     background-color: #190a3a;
     color: #fff;
@@ -31,7 +35,11 @@ html{
 button.navbar-toggler{
     background-color: #8654cd;
 }
-
+#produtos-nav1,
+#produtos-nav2,
+#produtos-nav3{
+    margin-right: 8px;
+}
 #produtos-nav1.active,
 #produtos-nav2.active,
 #produtos-nav3.active{
@@ -44,6 +52,9 @@ button.navbar-toggler{
 
 .carousel-control-next, .carousel-control-prev{
     width: 40%;
+}
+.card{
+    margin-bottom: 8px;
 }
 .card-text{
     font-weight: bold;
